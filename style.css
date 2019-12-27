@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+.hero {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(23, 45, 60);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-sizing: border-box;
+}
+.image {
+  top: 60px;
+  left: 120px;
+  position: absolute;
+}
+
+.form-box {
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  right: 80px;
+  top: 40px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.text {
+  color: rgb(221, 216, 216);
+  position: absolute;
+  font-family: "ABeeZee";
+  font-size: 13px;
+  width: 40%;
+  bottom: 100px;
+  left: 50px;
+}
+.login {
+  position: absolute;
+  width: 70%;
+  height: 40%;
+  top: 125px;
+  box-sizing: border-box;
+  left: -70px;
+  padding: 15px;
+  display: block;
+}
+.Register {
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  top: 125px;
+  box-sizing: border-box;
+  left: 920px;
+  padding: 15px;
+  display: none;
+}
+
+.form-group label {
+  color: rgb(15, 26, 47);
+
+  font-family: "ABeeZee";
+  font-size: 12px;
+}
+.register-box {
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  right: 80px;
+  top: 40px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.text {
+  color: rgb(221, 216, 216);
+  position: absolute;
+  font-family: "ABeeZee";
+  font-size: 13px;
+  width: 40%;
+  bottom: 100px;
+  left: 50px;
+}
+.login {
+  position: absolute;
+  width: 70%;
+  height: 40%;
+  top: 125px;
+  box-sizing: border-box;
+  left: 70px;
+  padding: 15px;
+}
+
+.form-group label {
+  color: rgb(23, 45, 60);
+
+  font-family: "ABeeZee";
+  font-size: 12px;
+}
+
+#span {
+  font-family: "ABeeZee";
+  font-size: 12px;
+  position: absolute;
+  left: 175px;
+  margin: 0px;
+}
+#button {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-family: "ABeeZee";
+  font-size: 13px;
+  top: 270px;
+  background-color: rgba(23, 45, 60, 0.774);
+  border-radius: 5px;
+  text-align: center;
+  width: 65%;
+  padding: 15px;
+  left: 40px;
+  border: rgb(23, 45, 60);
+}
+#Not {
+  font-family: "ABeeZee";
+  font-size: 13px;
+  position: absolute;
+  left: 35px;
+  bottom: 5px;
+  top: 316px;
+  margin: 10px;
+}
+#reg {
+  font-family: "ABeeZee";
+  font-size: 13px;
+  position: absolute;
+  left: 168px;
+  bottom: 5px;
+  top: 316px;
+  margin: 10px;
+}
+#pass1 {
+  margin: 10px;
+  width: 200px;
+  right: 50px;
+}
+#span1 {
+  font-family: "ABeeZee";
+  font-size: 15px;
+  position: absolute;
+  left: 144px;
+  margin: 10px;
+}
+#button1 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-family: "ABeeZee";
+  font-size: 13px;
+  top: 270px;
+  background-color: rgba(23, 39, 70, 0.774);
+  border-radius: 5px;
+  text-align: center;
+  width: 65%;
+  padding: 15px;
+  left: 40px;
+  border: rgb(15, 26, 47);
+}
+#Loginchange1 {
+  width: 125px;
+  float: left;
+  font-family: "ABeeZee";
+  font-size: 15px;
+  border-bottom: 2px solid;
+  border-color: rgba(23, 39, 70, 0.603);
+  text-align: center;
+  padding: 5px;
+}
+#Loginchange2 {
+  width: 125px;
+  float: left;
+  font-family: "ABeeZee";
+  font-size: 15px;
+  border-bottom: 2px solid;
+  border-color: rgba(23, 39, 70, 0.24);
+  text-align: center;
+  padding: 5px;
+}
+.change {
+  position: absolute;
+  font-family: "ABeeZee";
+  font-size: 15px;
+  float: left;
+  width: 70%;
+  height: 20%;
+  top: 20px;
+  box-sizing: border-box;
+  left: 75px;
+  padding: 15px;
+}

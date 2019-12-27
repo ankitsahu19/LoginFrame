@@ -1,0 +1,140 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=ABeeZee"
+      rel="stylesheet"
+    />
+   
+  </head>
+  <body>
+    <div class="hero">
+      <div class="image">
+        <img src="Asset 2.png" width="300px" height="300px">
+      </div>
+      <div class="text">
+        <h1>
+          Welcome!
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+          consequat massa quis enim
+        </p>
+      </div>
+
+      <div class="form-box" id="form-box">
+          <div class = "change">
+              <div id="Loginchange1" onclick='change()''>
+                Log In
+              </div>
+              <div id = "Loginchange2" onclick='change1()''>
+                Register
+              </div>
+
+
+
+          </div>
+          <div id="parent">
+     
+          <div class="login" id="Login">
+            <form action="">
+              <div class="form-group">
+                <label for="username" class="labeltext">Emailid/Mobile Number</label>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password" class="labeltext">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="form-control"
+                />
+              </div>
+              <span id="span">Forget Password</span>
+              <button id="button">LOGIN</button>
+            </form>
+
+            <span id="Not">Not a member yet?</span>
+            <span id="Reg">Register</span>
+          </div>
+        </div>
+      </div> 
+    
+    
+    
+      <div class="Register" id="Register">
+        <form action="">
+          <div class="form-group">
+            <label for="username" class="labeltext">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password" class="labeltext">Emailid</label>
+            <input
+              type="text"
+              name="password"
+              id="password"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password" class="labeltext">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="form-control"
+            />
+          </div>
+         
+          <button id="button">Register</button>
+        </form>
+
+        
+      </div>
+      </div>
+    </div>
+  </div> 
+
+
+      
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
