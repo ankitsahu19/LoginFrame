@@ -1,134 +1,113 @@
-* {
-  box-sizing: border-box;
-}
 .hero {
   height: 100%;
   width: 100%;
   background-color: rgb(23, 45, 60);
   background-size: cover;
-  background-position: center;
+
   position: relative;
-  box-sizing: border-box;
 }
 .image {
-  top: 80px;
-  left: 80px;
+  top: 20%;
+  height: 50%;
+  width: 45%;
+
+  left: 3%;
   position: absolute;
 }
 
-.form-box {
-  position: absolute;
-  width: 30%;
-  height: 90%;
-  right: 80px;
-  top: 40px;
-  background: rgb(255, 255, 255);
-  border-radius: 5px;
-  padding: 5px;
-  box-sizing: border-box;
-}
 .text {
   color: rgb(221, 216, 216);
   position: absolute;
   font-family: "ABeeZee";
   font-size: 13px;
   width: 40%;
-  bottom: 100px;
-  left: 110px;
+  bottom: 10%;
+  left: 5%;
+  top: 60%;
 }
-.login {
-  position: absolute;
-  width: 70%;
-  height: 40%;
-  top: 125px;
-  box-sizing: border-box;
-  left: -70px;
-  padding: 15px;
-  display: block;
-}
-.Register {
-  position: absolute;
-  width: 25%;
-  height: 40%;
-  top: 125px;
-  box-sizing: border-box;
-  left: 920px;
-  padding: 15px;
-  display: none;
-}
-
-.form-group label {
-  color: rgb(15, 26, 47);
-
-  font-family: "ABeeZee";
-  font-size: 12px;
-}
-.register-box {
+.form-box {
   position: absolute;
   width: 30%;
   height: 90%;
-  right: 80px;
-  top: 40px;
+  right: 7%;
+  top: 5%;
   background: rgb(255, 255, 255);
   border-radius: 5px;
   padding: 5px;
   box-sizing: border-box;
 }
+.form-group label {
+  color: rgb(15, 26, 47);
+  font-family: "ABeeZee";
+  font-size: 12px;
+  top: 25%;
+}
 
 .login {
   position: absolute;
   width: 70%;
-  height: 40%;
-  top: 125px;
-  box-sizing: border-box;
-  left: 70px;
+  height: 80%;
+  top: 20%;
+
+  left: 18%;
+  bottom: 5%;
   padding: 15px;
+  display: block;
 }
-
-.form-group label {
-  color: rgb(23, 45, 60);
-
-  font-family: "ABeeZee";
-  font-size: 12px;
+.Register {
+  position: absolute;
+  width: 70%;
+  height: 80%;
+  top: 20%;
+  box-sizing: border-box;
+  left: 20%;
+  padding: 15px;
+  display: none;
 }
 
 #span {
   font-family: "ABeeZee";
   font-size: 12px;
   position: absolute;
-  left: 175px;
-  margin: 0px;
+  left: 60%;
+  bottom: 60%;
+  margin: 4px;
 }
 #button {
   color: rgb(255, 255, 255);
   position: absolute;
   font-family: "ABeeZee";
   font-size: 13px;
-  top: 270px;
+
   background-color: rgba(23, 45, 60, 0.774);
   border-radius: 5px;
   text-align: center;
   width: 65%;
+
   padding: 15px;
-  left: 40px;
+  left: 18%;
+  bottom: 30%;
+
+  margin: 2%;
   border: rgb(23, 45, 60);
 }
 #Not {
   font-family: "ABeeZee";
   font-size: 13px;
   position: absolute;
-  left: 35px;
-  bottom: 5px;
-  top: 316px;
+  left: 15%;
+  bottom: 17%;
+
+  width: 30%;
   margin: 10px;
 }
 #reg {
   font-family: "ABeeZee";
   font-size: 13px;
   position: absolute;
-  left: 168px;
-  bottom: 5px;
-  top: 316px;
+  left: 60%;
+  bottom: 19%;
+  padding: 5px;
   margin: 10px;
 }
 #pass1 {
@@ -148,14 +127,18 @@
   position: absolute;
   font-family: "ABeeZee";
   font-size: 13px;
-  top: 270px;
-  background-color: rgba(23, 39, 70, 0.774);
+
+  background-color: rgba(23, 45, 60, 0.774);
   border-radius: 5px;
   text-align: center;
   width: 65%;
+
   padding: 15px;
-  left: 40px;
-  border: rgb(15, 26, 47);
+  left: 18%;
+  bottom: 30%;
+
+  margin: 2%;
+  border: rgb(23, 45, 60);
 }
 #Loginchange1 {
   width: 125px;
@@ -184,8 +167,35 @@
   float: left;
   width: 70%;
   height: 20%;
-  top: 20px;
+  top: 5%;
   box-sizing: border-box;
-  left: 75px;
+  left: 20%;
   padding: 15px;
+}
+@media screen and (max-width: 640px) {
+  .image {
+    width: 80%;
+    top: 5%;
+  }
+
+  .text {
+    width: 80%;
+    top: 40%;
+    font: 100%;
+  }
+  .hero {
+    height: 200%;
+    width: 100%;
+  }
+  .form-box {
+    width: 80%;
+    top: 60%;
+    height: 40%;
+  }
+  #span {
+    bottom: 48%;
+  }
+  #button1 {
+    bottom: 1%;
+  }
 }
