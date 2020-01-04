@@ -70,8 +70,7 @@
   font-size: 12px;
   position: absolute;
   left: 60%;
-  bottom: 60%;
-  margin: 4px;
+  margin-top: 5%;
 }
 #button {
   color: rgb(255, 255, 255);
@@ -176,12 +175,14 @@
   .image {
     width: 80%;
     top: 5%;
+    left: 10%;
   }
 
   .text {
     width: 80%;
     top: 40%;
     font: 100%;
+    left: 10%;
   }
   .hero {
     height: 200%;
@@ -192,10 +193,24 @@
     top: 60%;
     height: 40%;
   }
+  .login {
+    left: 15%;
+    top: 20%;
+  }
+  .Register {
+    left: 12%;
+    top: 15%;
+  }
   #span {
     bottom: 48%;
   }
   #button1 {
     bottom: 1%;
+  }
+  .change {
+    top: -2%;
+
+    left: 18%;
+    padding: 15px;
   }
 }
